@@ -1,21 +1,21 @@
-# bio-agm
+# bio-agp
 
-[![Build Status](https://secure.travis-ci.org/wwood/bioruby-agm.png)](http://travis-ci.org/wwood/bioruby-agm)
+[![Build Status](https://secure.travis-ci.org/wwood/bioruby-agp.png)](http://travis-ci.org/wwood/bioruby-agp)
 
-Full description goes here
+```bio-agp``` is a Ruby biogem for handling files in the (AGP)[http://www.ncbi.nlm.nih.gov/projects/genome/assembly/agp/AGP_Specification.shtml] assembly scaffolding format. These are output by at least one assembler, Newlber - see (a relevant blog post)[https://contig.wordpress.com/2010/03/22/newbler-output-ii-contigs-and-scaffolds-sequence-files-and-the-454scaffolds-txt-file/].
 
 Note: this software is under active development!
 
 ## Installation
 
 ```sh
-    gem install bio-agm
+gem install bio-agp
 ```
 
 ## Usage
 
 ```ruby
-    require 'bio-agm'
+require 'bio-agp'
 ```
 
 The API doc is online. For more code examples see the test files in
@@ -26,7 +26,7 @@ the source tree.
 Information on the source tree, documentation, examples, issues and
 how to contribute, see
 
-  http://github.com/wwood/bioruby-agm
+  http://github.com/wwood/bioruby-agp
 
 The BioRuby community is on IRC server: irc.freenode.org, channel: #bioruby.
 
@@ -39,7 +39,7 @@ If you use this software, please cite one of
 
 ## Biogems.info
 
-This Biogem is published at [#bio-agm](http://biogems.info/index.html)
+This Biogem is published at [#bio-agp](http://biogems.info/index.html#bio-agp)
 
 ## Copyright
 
